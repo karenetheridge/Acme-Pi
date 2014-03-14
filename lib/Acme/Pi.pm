@@ -49,7 +49,10 @@ the number L<pi|http://en.wikipedia.org/wiki/Pi>.
 
 =begin :list
 
-* L<David Golden on bad $VERSIONs|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+* L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+* L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
+* L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
+* L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
 
 =end :list
 
