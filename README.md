@@ -4,7 +4,7 @@ Acme::Pi - Mmm, pie
 
 # VERSION
 
-version 3
+version 3.1
 
 # SYNOPSIS
 
@@ -34,7 +34,10 @@ the number [pi](http://en.wikipedia.org/wiki/Pi).
 
 # SEE ALSO
 
-- [David Golden on bad $VERSIONs](http://www.dagolden.com/index.php/2191/real-versions-on-cpan/)
+- [David Golden: Real $VERSIONs on CPAN](http://www.dagolden.com/index.php/2191/real-versions-on-cpan/)
+- [David Golden: version numbers should be boring](http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/)
+- [Dinosaur comics on Pi Day](http://www.qwantz.com/index.php?comic=955)
+- [Usage of pi in TeX versions](http://en.wikipedia.org/wiki/TeX#History)
 
 # AUTHOR
 
