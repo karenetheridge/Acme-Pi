@@ -1,4 +1,6 @@
+/.ackrc
 /.build/
-!.gitignore
+!/.gitignore
+/.latest
 /Acme-Pi-*/
 /Acme-Pi-*.tar.gz
