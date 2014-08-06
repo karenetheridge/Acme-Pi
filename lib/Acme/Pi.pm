@@ -21,8 +21,6 @@ __END__
 
 =head1 DESCRIPTION
 
-=for stopwords Mmm
-
 This distribution was created to celebrate L<Pi Day|http://www.piday.org/>,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 It defines its version as:
