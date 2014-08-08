@@ -16,8 +16,7 @@ __END__
 =head1 SYNOPSIS
 
     use Acme::Pi;
-
-    ...that's it, really
+    my $pi = Acme::Pi->VERSION;
 
 =head1 DESCRIPTION
 
@@ -25,7 +24,7 @@ This distribution was created to celebrate L<Pi Day|http://www.piday.org/>,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 It defines its version as:
 
-    $Acme::Pi::VERSION = atan2(1,1) * 4;
+    atan2(1,1) * 4;
 
 =head1 SUPPORT
 
@@ -41,7 +40,7 @@ I am also usually active on irc, as 'ether' at C<irc.perl.org>.
 
 This module was brought to you by the
 L<2014 QA Hackathon in Lyon|http://act.qa-hackathon.org/qa2014>, as well as
-the number L<pi|http://en.wikipedia.org/wiki/Pi>.
+the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =head1 SEE ALSO
 
