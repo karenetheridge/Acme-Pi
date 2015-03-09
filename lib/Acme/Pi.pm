@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Acme::Pi;
 # ABSTRACT: Mmm, pie
-# vim: set ts=8 sw=4 tw=78 et :
+# vim: set ts=8 sts=4 sw=4 tw=78 et :
 
 use utf8;
 # KEYWORDS: pi π
