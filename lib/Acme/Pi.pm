@@ -26,6 +26,10 @@ It defines its version as:
 
     atan2(1,1) * 4;
 
+It is intended that version parsers in the toolchain (L<Module::Metadata>,
+L<ExtUtils::MakeMaker>'s C<< MM->parse_version >>, L<Parse::PMFile>) should
+be capable of statically parsing this package's <$VERSION>.
+
 =head1 SUPPORT
 
 =for stopwords irc
