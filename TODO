@@ -1,0 +1,21 @@
+
+need a test that confirms that every successive version compares
+greater (according to version.pm) to the version before it.
+
+ [ether@jaeger ~]$; perl -Mversion -wle'print version->parse("3.1")->numify;
+ print version->parse("3.14")->numify; print version->parse("3.141")->numify;
+ print version->parse("3.1415")->numify; print version->parse("3.14159")->numify'
+ 3.100
+ 3.140
+ 3.141
+ 3.141500
+ 3.141590
+
+
+
+need to include code that generates the digits using newtonian approximation,
+so we get more sigfigs.
+allow this to be exported too.
+
+
+patch https://metacpan.org/pod/lambda to have a link to the lambda sub as a pod header.
