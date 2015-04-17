@@ -20,7 +20,7 @@ __END__
 
 =head1 DESCRIPTION
 
-This distribution was created to celebrate L<Pi Day|http://www.piday.org/>,
+This distribution was created to celebrate L<Pi Day|http://www.piday.org/> 2014,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 It defines its version as:
 
@@ -28,7 +28,7 @@ It defines its version as:
 
 It is intended that version parsers in the toolchain (L<Module::Metadata>,
 L<ExtUtils::MakeMaker>'s C<< MM->parse_version >>, L<Parse::PMFile>) should
-be capable of statically parsing this package's <$VERSION>.
+be capable of statically parsing this package's C<$VERSION>.
 
 =head1 SUPPORT
 
@@ -46,6 +46,31 @@ This module was brought to you by the
 L<2014 QA Hackathon in Lyon|http://act.qa-hackathon.org/qa2014>, as well as
 the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
+=head1 AFTERWORD
+
+          3.141592653589793238462643383279
+        5028841971693993751058209749445923
+       07816406286208998628034825342117067
+       9821    48086         5132
+      823      06647        09384
+     46        09550        58223
+     17        25359        4081
+               2848         1117
+               4502         8410
+               2701         9385
+              21105        55964
+              46229        48954
+              9303         81964
+              4288         10975
+             66593         34461
+            284756         48233
+            78678          31652        71
+           2019091         456485       66
+          9234603           48610454326648
+         2133936            0726024914127
+         3724587             00660631558
+         817488               152092096
+
 =head1 SEE ALSO
 
 =for :list
@@ -53,5 +78,6 @@ the number L<π|http://en.wikipedia.org/wiki/Pi>.
 * L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
 * L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
 * L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
+* L<lambda/λ>
 
 =cut
