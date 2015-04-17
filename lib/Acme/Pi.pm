@@ -18,6 +18,16 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
+=head1 NAME
+
+Acme::Pi - Mmm, pie
+
+=head1 VERSION
+
+version 3.14159265358979
+
 =head1 SYNOPSIS
 
     use Acme::Pi;
@@ -81,11 +91,39 @@ the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =head1 SEE ALSO
 
-=for :list
-* L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
-* L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
-* L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
-* L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
-* L<lambda/λ>
+=over 4
+
+=item *
+
+L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+
+=item *
+
+L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
+
+=item *
+
+L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
+
+=item *
+
+L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
+
+=item *
+
+L<lambda/λ>
+
+=back
+
+=head1 AUTHOR
+
+Karen Etheridge <ether@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Karen Etheridge.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

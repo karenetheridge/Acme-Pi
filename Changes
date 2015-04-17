@@ -2,6 +2,8 @@ Revision history for Acme-Pi
 
 {{$NEXT}}
           - add $π as an exported variable
+          - remove all uses of PPI from this distribution's tooling (notably
+            Pod::Weaver) because of its inability to parse non-ascii tokens
 
 3.141     2015-03-14 20:55:41Z
           - happy Pi Day 2015!
