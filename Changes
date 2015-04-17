@@ -1,4 +1,4 @@
-Revision history for {{$dist->name}}
+Revision history for Acme-Pi
 
 {{$NEXT}}
           - add $π as an exported variable
