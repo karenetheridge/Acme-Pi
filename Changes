@@ -1,6 +1,6 @@
 Revision history for Acme-Pi
 
-{{$NEXT}}
+3.1415    2015-04-17 14:45:27Z
           - add $π as an exported variable
           - remove all uses of PPI from this distribution's tooling (notably
             Pod::Weaver) because of its inability to parse non-ascii tokens
