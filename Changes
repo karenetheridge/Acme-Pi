@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          - add $π as an exported variable
 
 3.141     2015-03-14 20:55:41Z
           - happy Pi Day 2015!

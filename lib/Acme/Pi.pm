@@ -8,6 +8,11 @@ use utf8;
 # KEYWORDS: pi π
 
 my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = "$version";
+
+use Exporter 'import';
+our @EXPORT = ('$π');
+our $π = atan2(1,1) * 4;
+
 1;
 __END__
 
@@ -16,16 +21,19 @@ __END__
 =head1 SYNOPSIS
 
     use Acme::Pi;
-    my $pi = Acme::Pi->VERSION;
+
+    my $area = $π * $radius**2;
 
 =head1 DESCRIPTION
 
 This distribution was created to celebrate L<Pi Day|http://www.piday.org/> 2014,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
-It defines its version as:
+
+Additionally, it exports a single variable, C<$π>, defined as:
 
     atan2(1,1) * 4;
 
+This module also defines its own C<$VERSION> as π.
 It is intended that version parsers in the toolchain (L<Module::Metadata>,
 L<ExtUtils::MakeMaker>'s C<< MM->parse_version >>, L<Parse::PMFile>) should
 be capable of statically parsing this package's C<$VERSION>.
