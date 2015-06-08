@@ -5,7 +5,6 @@ package Acme::Pi;
 # vim: set ts=8 sts=4 sw=4 tw=78 et :
 
 use utf8;
-# KEYWORDS: pi π
 
 my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = "$version";
 
