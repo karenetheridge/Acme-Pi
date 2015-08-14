@@ -8,7 +8,7 @@ use utf8;
 
 my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = "$version";
 
-use Exporter 'import';
+use Exporter 5.57 'import';
 our @EXPORT = ('$π');
 our $π = atan2(1,1) * 4;
 
