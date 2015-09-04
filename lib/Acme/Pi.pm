@@ -47,14 +47,6 @@ It is intended that version parsers in the toolchain (L<Module::Metadata>,
 L<ExtUtils::MakeMaker>'s C<< MM->parse_version >>, L<Parse::PMFile>) should
 be capable of statically parsing this package's C<$VERSION>.
 
-=head1 SUPPORT
-
-=for stopwords irc
-
-Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-Pi>
-(or L<bug-Acme-Pi@rt.cpan.org|mailto:bug-Acme-Pi@rt.cpan.org>).
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
-
 =head1 ACKNOWLEDGEMENTS
 
 =for stopwords QA Hackathon
@@ -113,6 +105,13 @@ L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
 L<lambda/λ>
 
 =back
+
+=head1 SUPPORT
+
+Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-Pi>
+(or L<bug-Acme-Pi@rt.cpan.org|mailto:bug-Acme-Pi@rt.cpan.org>).
+
+I am also usually active on irc, as 'ether' at C<irc.perl.org>.
 
 =head1 AUTHOR
 
