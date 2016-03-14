@@ -52,7 +52,7 @@ be capable of statically parsing this package's C<$VERSION>.
 =for stopwords QA Hackathon
 
 This module was brought to you by the
-L<2014 QA Hackathon in Lyon|http://act.qa-hackathon.org/qa2014>, as well as
+L<2014 QA Hackathon in Lyon, France|http://act.qa-hackathon.org/qa2014>, as well as
 the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =head1 AFTERWORD
