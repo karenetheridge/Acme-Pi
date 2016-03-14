@@ -7,6 +7,10 @@ with 'Dist::Zilla::Role::AfterRelease';
 use utf8;
 use Path::Tiny 0.061;
 
+# this is a smarter version of:
+# [Run::AfterRelease]
+# run = %x -p -i -e's/^version = 3\.(\d+)\s/sprintf(q(version = %0.( . (length($1)+1) . q(g), atan2(1,1)*4)/x'
+
 sub after_release
 {
     my $self = shift;
@@ -17,6 +21,7 @@ sub after_release
     my $original_version = $self->zilla->version;
     my $length = length($original_version);
 
+    # add another digit if we added a 0, as it will be numerically identical
     do {} while substr($π, $length++, 1) eq '0';
 
     my $new_version = substr($π, 0, $length);
