@@ -6,7 +6,7 @@ package Acme::Pi;
 
 use utf8;
 
-my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = "$version";
+my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = substr("$version", 0, 16);
 
 use Exporter 5.57 'import';
 our @EXPORT = ('$π');
