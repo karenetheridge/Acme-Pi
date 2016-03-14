@@ -30,7 +30,9 @@ sub after_release
     my $path = path('dist.ini');
     my $content = $path->slurp_utf8;
 
-    if ($content =~ s/^(version = )$original_version(\s+)/$1$new_version$2/m)
+    my $delta_length = $length - length($original_version);
+
+    if ($content =~ s/^(version = )$original_version\s{$delta_length}(\s+)/$1$new_version$2/m)
     {
         # append+truncate to preserve file mode
         $path->append_utf8({ truncate => 1 }, $content);
