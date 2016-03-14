@@ -1,5 +1,7 @@
 Revision history for Acme-Pi
 
+{{$NEXT}}
+
 3.141592  2016-03-14 18:04:51Z
           - truncate $VERSION to 16 chars, to work with PAUSE's new sanity
             checks (see https://github.com/andk/pause/issues/203)
