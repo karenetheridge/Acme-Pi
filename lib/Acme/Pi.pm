@@ -9,8 +9,9 @@ use utf8;
 my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = substr("$version", 0, 16);
 
 use Exporter 5.57 'import';
-our @EXPORT = ('$π');
+our @EXPORT = ('$π', 'π');
 our $π = atan2(1,1) * 4;
+use constant π => atan2(1,1) * 4;
 
 1;
 __END__
@@ -32,13 +33,14 @@ version 3.14159265358979
     use Acme::Pi;
 
     my $area = $π * $radius**2;
+    my $volume = 4 * π / 3 * $radius**3;
 
 =head1 DESCRIPTION
 
 This distribution was created to celebrate L<Pi Day|http://www.piday.org/> 2014,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 
-Additionally, it exports a single variable, C<$π>, defined as:
+Additionally, it exports a single variable, C<$π>, and a single constant, C<π>, defined as:
 
     atan2(1,1) * 4;
 
