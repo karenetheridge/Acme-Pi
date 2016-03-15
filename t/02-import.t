@@ -11,4 +11,6 @@ binmode STDERR, ':encoding(UTF-8)';
 
 ok(defined($π), 'we have a defined $π');
 
+ok((3.14 < $π) && ($π < 3.15), '$π is between 3.14 and 3.15');
+
 done_testing;
