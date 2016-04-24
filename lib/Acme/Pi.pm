@@ -3,6 +3,7 @@ use warnings;
 package Acme::Pi;
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 # ABSTRACT: Mmm, pie
+# KEYWORDS: pi π
 
 use utf8;
 
