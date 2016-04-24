@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Acme::Pi;
-# ABSTRACT: Mmm, pie
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
+# ABSTRACT: Mmm, pie
 
 use utf8;
 
