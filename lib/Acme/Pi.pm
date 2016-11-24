@@ -19,12 +19,6 @@ __END__
 
 =pod
 
-=encoding UTF-8
-
-=head1 NAME
-
-Acme::Pi - Mmm, pie
-
 =head1 VERSION
 
 version 3.14159265358979
@@ -108,23 +102,5 @@ L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
 L<lambda/λ>
 
 =back
-
-=head1 SUPPORT
-
-Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-Pi>
-(or L<bug-Acme-Pi@rt.cpan.org|mailto:bug-Acme-Pi@rt.cpan.org>).
-
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
-
-=head1 AUTHOR
-
-Karen Etheridge <ether@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2014 by Karen Etheridge.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
 
 =cut
