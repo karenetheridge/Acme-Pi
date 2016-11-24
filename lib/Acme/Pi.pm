@@ -79,28 +79,11 @@ the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =head1 SEE ALSO
 
-=over 4
-
-=item *
-
-L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
-
-=item *
-
-L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
-
-=item *
-
-L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
-
-=item *
-
-L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
-
-=item *
-
-L<lambda/λ>
-
-=back
+=for :list
+* L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
+* L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
+* L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
+* L<Usage of pi in TeX versions|http://en.wikipedia.org/wiki/TeX#History>
+* L<lambda/λ>
 
 =cut
