@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package inc::MyCheckVersionIncremented;
+package MyCheckVersionIncremented;
 
 use Moose;
 with 'Dist::Zilla::Role::BeforeRelease';
