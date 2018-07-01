@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package MyBumpVersionAfterRelease;
+package inc::MyBumpVersionAfterRelease;
 
 use Moose;
 with 'Dist::Zilla::Role::AfterRelease';
