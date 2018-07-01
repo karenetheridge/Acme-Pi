@@ -39,7 +39,8 @@ Additionally, it exports a single variable, C<$π>, and a single constant, C<π>
 
     atan2(1,1) * 4;
 
-This module also defines its own C<$VERSION> as π.
+This module also defines its own C<$VERSION> as a fixed-point value approximating
+π (using as many digits as is supported on the local machine).
 It is intended that version parsers in the toolchain (L<Module::Metadata>,
 L<ExtUtils::MakeMaker>'s C<< MM->parse_version >>, L<Parse::PMFile>) should
 be capable of statically parsing this package's C<$VERSION>.
