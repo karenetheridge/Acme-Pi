@@ -13,7 +13,7 @@ use Exporter 5.57 'import';
 our @EXPORT = ('$π', '$𝝿', 'π', '𝝿');
 our $π = our $𝝿 = atan2(1,1) * 4;
 use constant π => atan2(1,1) * 4;
-use constant 𝝿 => π;
+use constant 𝝿 => atan2(1,1) * 4;
 
 1;
 __END__
