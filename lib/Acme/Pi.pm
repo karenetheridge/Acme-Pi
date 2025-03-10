@@ -11,9 +11,13 @@ my $version = atan2(1,1) * 4; $Acme::Pi::VERSION = substr("$version", 0, 16);
 
 use Exporter 5.57 'import';
 our @EXPORT = ('$π', '$𝝿', 'π', '𝝿');
-our $π = our $𝝿 = atan2(1,1) * 4;
-use constant π => atan2(1,1) * 4;
-use constant 𝝿 => atan2(1,1) * 4;
+
+use Math::BigFloat;
+
+sub π () { Math::BigFloat->new(1)->batan2(1) * 4 }
+sub 𝝿 () { π }
+
+our $π = our $𝝿 = π;
 
 1;
 __END__
@@ -32,6 +36,8 @@ version 3.14159265358979
     my $volume = 4 * π / 3 * $radius**3;
 
 =head1 DESCRIPTION
+
+=for Pod::Coverage 𝝿 π
 
 This distribution was created to celebrate L<Pi Day|http://www.piday.org/> 2014,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
