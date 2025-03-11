@@ -89,6 +89,8 @@ the number L<π|http://en.wikipedia.org/wiki/Pi>.
 =head1 SEE ALSO
 
 =for :list
+* L<bignum/PI>
+* LMath::BigFloat/bpi>
 * L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
 * L<David Golden: version numbers should be boring|http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/>
 * L<Dinosaur comics on Pi Day|http://www.qwantz.com/index.php?comic=955>
