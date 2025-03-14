@@ -1,6 +1,6 @@
 Revision history for Acme-Pi
 
-{{$NEXT}}
+3.14159265  2025-03-14 19:37:40Z
           - Happy Pi Day 2025!
           - now using Math::BigFloat, for even more precision
 

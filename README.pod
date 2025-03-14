@@ -19,6 +19,8 @@ version 3.14159265358979
 
 =head1 DESCRIPTION
 
+=for Pod::Coverage 𝝿 π
+
 This distribution was created to celebrate L<Pi Day|http://www.piday.org/> 2014,
 as well as to demonstrate yet another example of a pathological C<$VERSION>.
 
@@ -72,6 +74,14 @@ the number L<π|http://en.wikipedia.org/wiki/Pi>.
 
 =item *
 
+L<bignum/PI>
+
+=item *
+
+LMath::BigFloat/bpi>
+
+=item *
+
 L<David Golden: Real $VERSIONs on CPAN|http://www.dagolden.com/index.php/2191/real-versions-on-cpan/>
 
 =item *
@@ -97,7 +107,7 @@ L<lambda/λ>
 Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-Pi>
 (or L<bug-Acme-Pi@rt.cpan.org|mailto:bug-Acme-Pi@rt.cpan.org>).
 
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
+I am also usually active on irc, as 'ether' at C<irc.perl.org> and C<irc.libera.chat>.
 
 =head1 AUTHOR
 
